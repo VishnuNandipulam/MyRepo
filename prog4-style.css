@@ -1,0 +1,11 @@
+/* create global variable */
+:root{
+    --x:blue
+}
+h1{
+    --y:orange;/*create local variable*/
+    color: var(--y); /*use local variable*/
+}
+#para{
+    color: var(--y);
+}

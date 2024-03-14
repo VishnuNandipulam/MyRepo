@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.container div{
+    border: 2px solid black;
+    background-color: aqua;
+    width: 400px;
+    padding: 10px 30px;
+
+    transform: translateY(500px);/* TRANSLATE content to Y direction depends on the value(value can be -ve or +ve
+    transform: translate(500px); or transform: translateX(500px);=> translate tox direction*/
+    transform: scale(1.5); /*zooming*/
+    transform: rotateX(91deg); /*rotate the content based on the value degree
+                               transform: rotateX(20deg); rotates in X direction
+                               transform: rotateY(20deg); rotates in X direction*/
+
+}

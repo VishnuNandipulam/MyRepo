@@ -1,0 +1,15 @@
+.container{
+    position: relative;
+}
+.container img {
+    position: absolute;
+}
+#husky{
+    z-index: 3; /*husky comes first bcaz value=3*/
+}
+#comb{
+    z-index: 1; /*comb comes last bcaz value=1*/
+}
+#rot{
+    z-index: 2; /*rot comes middle bcaz value=2*/
+}

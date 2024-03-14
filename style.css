@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 200px );
+    grid-template-rows: 200px 200px ;
+    /* column-gap: 10px;
+    row-gap: 10px;
+     */
+     gap: 30px;
+}
+.box{
+    color: red;
+    border: 1px solid black;
+
+}
